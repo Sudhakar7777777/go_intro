@@ -31,9 +31,11 @@ vi ~/.bash_profile
 ```
 
 Add these statements to your profile:
-> export GOPATH=$HOME/go-workspace # don't forget to change your path correctly!
-> export GOROOT=/usr/local/opt/go/libexec
-> export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+```
+export GOPATH=$HOME/go-workspace # don't forget to change your path correctly!
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+```
 
 Create your workspace and primary folders
 ```
